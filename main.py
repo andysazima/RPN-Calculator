@@ -1,5 +1,6 @@
 from stack import Stack
 from decimal import Decimal
+from gui import CalculatorApp
 
 
 def main():
@@ -26,4 +27,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    CalculatorApp().run()
